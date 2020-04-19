@@ -14,6 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "docker:build":"docker build  -t abdulrahmanalaa/react-app -f Dockerfile.dev .",
+    "docker:compose:run":"docker-compose up",
     "docker:run":"docker run -it -p 3000:3000 -v $(pwd):/app -v /app/node_modules  abdulrahmanalaa/react-app",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
